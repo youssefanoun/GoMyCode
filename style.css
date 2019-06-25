@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);
+}
+div{
+ margin-top:20px;
+ margin-bottom:30px;
+ margin-left:50%;
+ margin-right:50%;
+
+}
+a:hover{
+    color: blue
+}
+a{
+    color: brown;
+    border-style: ridge;
+
+}
+.espace{
+    padding-top:50px;
+    padding-bottom:30px;
+    padding-left:30%;
+    padding-right:50%;
+    
+   }
+   ul{
+       padding-top:50px;
+       
+   }
+   .divhead{
+
+    width: 100%;
+    background-color:rgba(43, 255, 0, 0.445);
+    margin-left: 0%;
+    margin-right: 20%;
+    height:10%;
+   }
+   li{
+    margin:50px;
+    display:inline
+   
+   }
