@@ -1,0 +1,41 @@
+<html>
+    <head><title>courses</title>
+        <link rel="stylesheet" href="style.1.css">
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBnRR5vsQGHplEZXeYhhhwE1nqb8rkSjF9LXtCrFojoqQUVyMQRQ">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <ul class="divhead">
+                    <li>
+                       <a href="home.html">Home</a>
+                    </li>
+                    <li><a href="courses.html">Courses</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div>
+        <h1  id="green"><b> COURSES</b></h1>
+        <h3><b><i>Freedback</i></b></h3>
+<form>
+        <input  onclick="gras(event)"  type="submit" value="A">
+        <input   onclick="italic(event)" type="submit" value="I">
+        <input   onclick=" Changecolor(event)" type="submit" value="Underline">
+        <select id="selection" onchange="size1()"> 
+                <option value="10px">10 px</option>
+                <option value="20px">20 px</option>  
+                <option value="30px">30 px</option>
+            </select>
+            <select id="selection2" onchange="text()">
+                    <option value="arial">Arial</option>
+                    <option value="Ubuntu">Ubuntu</option>
+                    <option value="Kalam">kalam</option>
+                </select>
+                <br>
+       <textarea  id="textarea" cols="50" row="200"></textarea> 
+</form>
+</div>
+    </body>
+    <script src="main.js"></script>
+</html>
