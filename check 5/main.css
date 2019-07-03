@@ -1,0 +1,45 @@
+body{
+    margin:0px;
+    background-color: rgb(53, 76, 206);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.position{
+   padding-left:17%;
+}
+h1{
+    padding-left:40%;
+}
+#child{
+    display:none;
+    position:relative;
+}
+#child1{
+    display:none;
+    position:relative;
+}
+#child2{
+    display:none;
+    position:relative;
+}
+#child3{
+    display:none;
+    position:relative;
+}
+#child4{
+    display:none;
+    position:relative;
+}
+#child5{
+    display:none;
+    position:relative;
+}
+
+.ligne{
+    display: inline-block;
+}
+.deco{
+    margin-top:40px;
+    font-style:bold;
+    font-size: 30px;
+    font-family: fantasy
+}
